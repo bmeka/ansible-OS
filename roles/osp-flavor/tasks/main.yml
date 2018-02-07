@@ -1,8 +1,7 @@
 ---
 # tasks file for roles/osp-flavor
-# tasks file for roles/osp-flavor
- - name: Create m2.small flavor
-   os_nova_flavor:
+- name: Create m2.small flavor
+  os_nova_flavor:
     cloud: ospcloud
     state: present
     name: m2.small
